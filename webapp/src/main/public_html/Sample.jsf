@@ -5,7 +5,7 @@
         <af:form id="f1">
             <af:pageTemplate viewId="/adfsamples/ADFLibraryTemplate.jsf" id="pt1">
                 <f:facet name="content">
-                    <af:panelHeader text="ADF Library Using Faces Resources" id="ph1">
+                    <af:panelHeader text="ADF Library Resources" id="ph1">
                         <button class="btn btn-primary"><span class="glyphicon glyphicon-home"></span> Home</button>
                     </af:panelHeader>
                 </f:facet>
