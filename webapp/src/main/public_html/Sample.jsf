@@ -1,13 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE html>
-<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+<f:view xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
     <af:document title="Sample.jsf" id="d1">
         <af:form id="f1">
             <af:pageTemplate viewId="/adfsamples/ADFLibraryTemplate.jsf" id="pt1">
                 <f:facet name="content">
-                    <af:panelHeader text="ADF Library Resources" id="ph1">
-                        <button class="btn btn-primary"><span class="glyphicon glyphicon-home"></span> Home</button>
-                    </af:panelHeader>
+                    <af:group id="g1">
+                        <h1>ADF Library Resources</h1>
+                        <p>This page is based on a page template from an ADF library.</p>
+                        <p>The page uses the most popular Bootstrap framework to display a glyphicon below that is
+                           backed up by font resources packaged in the ADF library along with the page template.</p>
+                        <p>
+                            <button class="btn btn-primary">
+                                <span class="glyphicon glyphicon-home"></span>
+                                Home
+                            </button>
+                        </p>
+                    </af:group>
                 </f:facet>
             </af:pageTemplate>
         </af:form>
